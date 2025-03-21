@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { Fustat, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import Footer from "@/components/footer";
 
 const fustat = Fustat({
   variable: "--font-fustat",
@@ -31,10 +30,7 @@ export default function RootLayout({
       suppressHydrationWarning
     >
       <body>
-        <div className="flex min-h-screen flex-col">
-          {children}
-          <Footer />
-        </div>
+        <div className="flex min-h-screen flex-col">{children}</div>
       </body>
     </html>
   );

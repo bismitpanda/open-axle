@@ -58,7 +58,7 @@ export default function ParticipationSteps() {
               {steps.map((step) => (
                 <div key={step.number} className="flex gap-26">
                   <div className="shrink-0">
-                    <div className="w-30 h-30 rounded-full bg-orange-400 text-6xl text-white flex items-center justify-center font-bold">
+                    <div className="w-30 h-30 rounded-full bg-[#FE8801] text-6xl text-white flex items-center justify-center font-bold">
                       {step.number}
                     </div>
                   </div>

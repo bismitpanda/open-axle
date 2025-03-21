@@ -46,7 +46,7 @@ export default function InvestmentAreas() {
         <div className="text-center mb-10">
           <p className="text-gray-600 mb-4">// Participation Categories //</p>
           <h2 className="text-6xl font-bold">
-            We <span className="text-orange-400">Invite</span> You.
+            We <span className="text-[#F28304]">Invite</span> You.
           </h2>
           <p className="text-gray-700 mt-4 text-md">
             We’re seeking those with daring ideas and the drive to make an

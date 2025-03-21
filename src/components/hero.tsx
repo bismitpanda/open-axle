@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import { CircleDollarSign, User2, Users2 } from "lucide-react";
 import Image from "next/image";
 
 export default function Hero() {
@@ -9,7 +10,18 @@ export default function Hero() {
           <h1 className="text-7xl font-semibold tracking-tighter">
             Stable Foundations for Companies of the Future.
           </h1>
-          <p className="text-orange-500 text-4xl font-medium">Incubatory'25.</p>
+          <p className="text-[#F28304] text-4xl font-bold">Incubatory'25.</p>
+          <div className="flex flex-row bg-black text-white px-6 py-2 w-max rounded-full text-sm gap-6">
+            <span className="flex flex-row items-center gap-2">
+              <User2 size={16} /> Mentorship
+            </span>
+            <span className="flex flex-row items-center gap-2">
+              <CircleDollarSign size={16} /> Funding
+            </span>
+            <span className="flex flex-row items-center gap-2">
+              <Users2 size={16} /> Community
+            </span>
+          </div>
           <p className="text-gray-600 text-sm md:text-base">
             Incubatory by OpenAxle is a launchpad for bold ideas, uniting a
             community of problem-solvers. We seek startups that defy the status

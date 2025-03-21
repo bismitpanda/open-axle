@@ -4,19 +4,25 @@ export default function CtaSection() {
   return (
     <section className="w-full py-12 md:py-24 bg-black text-white">
       <div className="container px-4 md:px-6 mx-auto text-center">
-        <h2 className="text-2xl md:text-3xl font-bold mb-4">
-          Ready to Incubate Big Ideas?
-        </h2>
-        <p className="text-gray-300 mb-8">Join us at Incubatory 25</p>
+        <div className="text-center mb-10">
+          <p className="text-white mb-4">// Incubatory'25 //</p>
+          <h2 className="text-6xl font-bold">
+            Ready to Incubate Big Ideas?
+            <br />
+            <span className="text-[#F28304]">Join us at Incubatory’ 25</span>
+          </h2>
+        </div>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <Button
             variant="outline"
-            className="border-orange-500 text-orange-500 hover:bg-[#FFF5EA]0 hover:text-white"
+            className="border-white text-white bg-black hover:bg-gray-900 hover:text-gray-100 p-5 rounded-full"
           >
-            Learn More
+            See Event Details
           </Button>
-          <Button className="bg-green-600 hover:bg-green-700">Apply Now</Button>
+          <Button className="bg-green-600 hover:bg-green-700 p-5 rounded-full">
+            Participate Now
+          </Button>
         </div>
       </div>
     </section>

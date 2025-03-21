@@ -75,7 +75,7 @@ export default function BenefitsSection() {
               <div className="w-full md:w-2/3">
                 <h3 className="text-6xl font-bold mb-2">{benefit.title}</h3>
                 <p className="text-4xl mb-5 font-bold">
-                  <span className="text-orange-400 mb-2">
+                  <span className="text-[#F28304] mb-2">
                     {benefit.highlighted}
                   </span>
                   {benefit.description}

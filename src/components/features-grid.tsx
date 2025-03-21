@@ -40,7 +40,7 @@ export default function FeaturesGrid() {
           {features.map((feature, index) => (
             <Card
               key={index}
-              className="bg-[#FFF5EA] border border-orange-400 rounded-[56px]"
+              className="bg-[#FFF5EA] border border-[#FB8B09] rounded-[56px]"
             >
               <CardContent className="px-16 py-8 flex flex-col items-center text-center">
                 <div className="w-40 h-40 mb-4">
