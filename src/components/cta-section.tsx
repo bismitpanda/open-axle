@@ -12,7 +12,7 @@ export default function CtaSection() {
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <Button
             variant="outline"
-            className="border-orange-500 text-orange-500 hover:bg-orange-500 hover:text-white"
+            className="border-orange-500 text-orange-500 hover:bg-[#FFF5EA]0 hover:text-white"
           >
             Learn More
           </Button>

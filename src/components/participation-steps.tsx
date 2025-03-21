@@ -42,36 +42,36 @@ export default function ParticipationSteps() {
 
   return (
     <section className="w-full py-24 bg-white">
-      <div className="container mx-auto">
-        <div className="text-center px-6 mb-10">
-          <p className="text-gray-600">// The Process //</p>
-          <h2 className="text-6xl font-medium">Participate Easily.</h2>
+      <div className="container px-6 mx-auto">
+        <div className="text-center mb-10">
+          <p className="text-gray-600 mb-4">// The Process //</p>
+          <h2 className="text-6xl font-bold">Participate Easily.</h2>
           <p className="text-gray-700 mt-4 text-lg">
             We’re seeking those with daring ideas and the drive to make an
             impact on the world stage
           </p>
         </div>
-      </div>
 
-      <Card className="bg-orange-50 rounded-none shadow-none border-none">
-        <CardContent className="p-8">
-          <div className="flex flex-col space-y-24">
-            {steps.map((step) => (
-              <div key={step.number} className="flex gap-26">
-                <div className="shrink-0">
-                  <div className="w-30 h-30 rounded-full bg-orange-400 text-6xl text-white flex items-center justify-center font-bold">
-                    {step.number}
+        <Card className="bg-[#F3F1EF] rounded-[56px] shadow-none border-none mx-16">
+          <CardContent className="p-16">
+            <div className="flex flex-col space-y-24">
+              {steps.map((step) => (
+                <div key={step.number} className="flex gap-26">
+                  <div className="shrink-0">
+                    <div className="w-30 h-30 rounded-full bg-orange-400 text-6xl text-white flex items-center justify-center font-bold">
+                      {step.number}
+                    </div>
+                  </div>
+                  <div>
+                    <h3 className="font-medium text-2xl mb-1">{step.title}</h3>
+                    <p className="text-gray-600">{step.description}</p>
                   </div>
                 </div>
-                <div>
-                  <h3 className="font-medium text-2xl mb-1">{step.title}</h3>
-                  <p className="text-gray-600">{step.description}</p>
-                </div>
-              </div>
-            ))}
-          </div>
-        </CardContent>
-      </Card>
+              ))}
+            </div>
+          </CardContent>
+        </Card>
+      </div>
     </section>
   );
 }

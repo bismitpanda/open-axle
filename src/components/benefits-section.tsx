@@ -47,8 +47,8 @@ export default function BenefitsSection() {
     <section className="w-full py-12 md:py-24 bg-white">
       <div className="container px-4 md:px-6 mx-auto">
         <div className="text-center mb-10">
-          <p className="text-gray-600">// Benefits //</p>
-          <h2 className="text-6xl font-medium">What you get.</h2>
+          <p className="text-gray-600 mb-4">// Benefits //</p>
+          <h2 className="text-6xl font-bold">What you get.</h2>
           <p className="text-gray-700 mt-4 text-md">
             We’re seeking those with daring ideas and the drive to make an
             impact on the world stage

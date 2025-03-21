@@ -9,7 +9,7 @@ import PromotionBanner from "@/components/promotion-banner";
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-orange-50">
+    <main className="min-h-screen bg-[#FFF5EA]">
       <Hero />
       <FeaturesGrid />
       <BenefitsSection />

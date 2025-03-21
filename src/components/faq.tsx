@@ -36,11 +36,11 @@ export default function FAQ() {
   ];
 
   return (
-    <section className="w-full py-12 md:py-24 bg-orange-50">
+    <section className="w-full py-12 md:py-24 bg-[#FFF5EA]">
       <div className="container px-4 md:px-6 mx-auto">
         <div className="text-center px-6 mb-10">
-          <p className="text-gray-600">// Answers to your Questions //</p>
-          <h2 className="text-6xl font-medium">FAQs</h2>
+          <p className="text-gray-600 mb-4">// Answers to your Questions //</p>
+          <h2 className="text-6xl font-bold">FAQs</h2>
           <p className="text-gray-700 mt-4 text-lg">
             We’re seeking those with daring ideas and the drive to make an
             impact on the world stage

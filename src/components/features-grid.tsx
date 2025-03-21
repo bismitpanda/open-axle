@@ -27,11 +27,11 @@ export default function FeaturesGrid() {
   ];
 
   return (
-    <section className="w-full py-12 bg-orange-50">
+    <section className="w-full py-12 bg-[#FFF5EA]">
       <div className="container px-4 md:px-6 mx-auto">
         <div className="text-center mb-10">
-          <p className="text-gray-600">// Services //</p>
-          <h2 className="text-6xl font-medium">
+          <p className="text-gray-600 mb-4">// Services //</p>
+          <h2 className="text-6xl font-bold">
             We support ideas that <br />
             drive change.
           </h2>
@@ -40,7 +40,7 @@ export default function FeaturesGrid() {
           {features.map((feature, index) => (
             <Card
               key={index}
-              className="bg-orange-50 border border-orange-400 rounded-[56px]"
+              className="bg-[#FFF5EA] border border-orange-400 rounded-[56px]"
             >
               <CardContent className="px-16 py-8 flex flex-col items-center text-center">
                 <div className="w-40 h-40 mb-4">

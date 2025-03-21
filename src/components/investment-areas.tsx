@@ -41,11 +41,11 @@ export default function InvestmentAreas() {
   ];
 
   return (
-    <section className="w-full py-12 md:py-24 bg-orange-50">
+    <section className="w-full py-12 md:py-24 bg-[#FFF5EA]">
       <div className="container px-4 md:px-6 mx-auto">
         <div className="text-center mb-10">
-          <p className="text-gray-600">// Participation Categories //</p>
-          <h2 className="text-6xl font-medium">
+          <p className="text-gray-600 mb-4">// Participation Categories //</p>
+          <h2 className="text-6xl font-bold">
             We <span className="text-orange-400">Invite</span> You.
           </h2>
           <p className="text-gray-700 mt-4 text-md">
@@ -58,7 +58,7 @@ export default function InvestmentAreas() {
           {areas.map((area, index) => (
             <Card
               key={index}
-              className="border-none w-85 bg-orange-50 shadow-none overflow-hidden"
+              className="border-none w-85 bg-[#FFF5EA] shadow-none overflow-hidden"
             >
               <CardContent className="p-0">
                 <div className="h-75 w-85 relative">
